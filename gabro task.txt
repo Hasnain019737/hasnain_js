@@ -1,0 +1,16 @@
+Work on these tasks and share report with me
+What is Javascript and write down where it is used?
+Let suppose you have a paragraph element having an id 'paragraph,' how can you replace its content with your name?
+How can we declare a variable and what are the different ways to declare?
+What is the logical operator for "not equal value or not equal type" statement?
+Write down different data types used in programming languages.
+What is a function and its scope? Describe with an example.
+What is an object and its writing style? What are the different ways to access object properties?
+How to check how many letters are in a string?
+What would be the result of 100 == '101' and 100 != '100'?
+What is the method to check if any string ends with any specific letter?
+What is an array and explain with an example by writing down an array of the first 10 positive integers? And access the 5th value in an array.
+How to add and remove values from an array? Explain with a code example.
+What is a boolean and what would be the result of 0 and null in boolean?
+Write a program that prints "Hello, world!" to the console.
+Exercise 3: Write a function that takes a number as input and checks if it is a prime number. Return true if it is, false otherwise.

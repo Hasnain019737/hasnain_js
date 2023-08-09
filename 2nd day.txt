@@ -1,0 +1,29 @@
+Write a program that takes two numbers as input and outputs their sum, difference, product, and quotient.
+
+Write a program that takes a number as input and prints whether it is even or odd.
+
+Write a program that takes a string as input and prints the reverse of the string.
+
+Write a program that generates and prints the Fibonacci sequence up to a given number of terms.
+
+Write a program that takes an array of numbers as input and outputs the largest and smallest numbers in the array.
+
+Write a program that prompts the user for a number and then prints all the prime numbers up to that number.
+
+Write a program that takes a sentence as input and counts the number of words in the sentence.
+
+Write a program that takes an array of numbers as input and returns a new array with only the positive numbers from the original array.
+
+Write a function that takes two numbers as parameters and returns their sum.
+
+Using a for in loop, calculate the total number of properties in an object.
+
+Using a for in loop, print all the properties of an object that have a string value.
+
+Using a combination of for loop and for of loop, iterate over an array of objects and print a specific property of each object.
+
+Write a function that takes an array of numbers as a parameter and returns the largest number in the array.
+
+Write a function that takes a string as a parameter and returns the reversed version of the string.
+
+Write a function that takes an array of strings as a parameter and returns a new array with the lengths of those strings.

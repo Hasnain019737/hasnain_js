@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let person = {
+            name: "hasnain",
+            fname: "ijaz",
+            age: 21,
+            studing: "bsit",
+        }
+        Object.keys(person).forEach((i) => {
+            console.log(person[i])
+
+        })
+    </script>
+    <script>
+        let a = ["hasnian", "ijaz ",]
+        // for(let i=0 ; i<a.length ; i++){
+        //     console.log(a[i])
+        // }
+        a.forEach((item) => {
+            console.log(item)
+        })
+    </script>
+    <script>
+        let b = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        let large_number = Math.max(...b)
+        let small_num = Math.min(...b)
+        console.log(large_number)
+        console.log(small_num)
+    </script>
+    <script>
+        let n = prompt("enter your string")
+        let splitary = n.split("")
+        let reverseary = splitary.reverse()
+        newary = reverseary.join("")
+        console.log(newary)
+    </script>
+    <script>
+        function stringLengths(...strings) {
+            return strings.map(string => string.length);
+        }
+        console.log(stringLengths("lodhran", "hasnain", "ijaz"))
+    </script>
+    <script>
+        function average(b, n) {
+            return (b + n) / 2
+        }
+        h = prompt("enter first number")
+        j = prompt("enter 2nd number")
+        console.log(average(h, j))
+    </script>
+    <script>
+        function calculate_average(numbers) {
+            if (numbers.length == 0) {
+                return 0;
+            }
+            var sum = 0;
+            for (let i = 0; i < numbers.length; i++) {
+                sum += numbers[i]
+            }
+            let average = sum / numbers.length;
+            return average
+        }
+        var inputNumbers = [10, 20, 30, 40, 50];
+        var result = calculate_average(inputNumbers);
+        console.log("The average is: " + result);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+     <script>
+        function sumofnum(num1, num2) {
+            return (num1 + num2);
+        }
+        function sbtractofnum(num1, num2) {
+            return num1 - num2
+        }
+        function divisionofnum(num1, num2) {
+            return num1 / num2
+        }
+        function multiplyofnum(num1, num2) {
+            return num1 * num2
+        }
+        num1 = prompt("enter 1st numb")
+        num2 = prompt("enter 2nd number")
+        const sum = sumofnum(num1, num2)
+        const sbtract = sbtractofnum(num1, num2)
+        const division = divisionofnum(num1, num2)
+        const multiply = multiplyofnum(num1, num2)
+        console.log(sum + "Sum of 2 number")
+        console.log(sbtract + "sbtraction of 2 number")
+        console.log(division + "division of 2 number")
+        console.log(multiply + "multiply of 2 number")
+
+
+
+    </script>
+    <script>
+        let numberr = prompt("enter you number")
+        if (numberr % 2 == 0) {
+            console.log("number is even")
+
+        }
+        else {
+            console.log(" number is odd")
+        }
+    </script>
+    <script>
+        function reversestring(str){
+            let newstring = str.split("");
+            let reversearray= newstring.reverse()
+            let joinarray = reversearray.join("")
+            return joinarray
+        }
+        const string = prompt(" enter the string")
+        console.log(reversestring(strings))
+    </script> 
+    <script>
+        function reverse(str) {
+            let newstring = " ";
+            for (let i = str.length - 1; i >= 0; i--) {
+                newstring += str[i]
+            }
+            return newstring
+        }
+        const strings = prompt("enter the string")
+        console.log(reverse(strings))
+    </script>
+    <script>
+        var a = 0;
+        var b = 1;
+        console.log(a)
+        console.log(b)
+        for (let i = 0; i <= 10; i++) {
+            let temp = a + b;
+            console.log(temp)
+            a = b;
+            b = temp;
+
+        }
+    </script>
+    <script>
+        let number = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        let small_num = Math.min(...number)
+        let large_number = Math.max(...number)
+        console.log(small_num)
+        console.log(large_number)
+    </script>
+    <script>
+        const lowerNumber = parseInt(prompt('Enter lower number: '));
+        const higherNumber = parseInt(prompt('Enter higher number: '));
+
+        console.log(`The prime numbers between ${lowerNumber} and ${higherNumber} are:`);
+        for (let i = lowerNumber; i <= higherNumber; i++) {
+            let flag = 0;
+            for (let j = 2; j < i; j++) {
+                if (i % j == 0) {
+                    flag = 1;
+                    break;
+                }
+            }
+            if (i > 1 && flag == 0) {
+                console.log(i);
+            }
+        }
+    </script> 
+</body>
+
+</html>
